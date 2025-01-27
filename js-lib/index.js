@@ -8,13 +8,11 @@ const
 class abTime_Class
 {
 
-    constructor()
-    {
+    constructor() {
         
     }
 
-    getParts(time)
-    {
+    getParts(time) {
         js0.args(arguments, 'number');
 
         let parts = {};
@@ -33,8 +31,7 @@ class abTime_Class
         return parts;
     }
 
-    getTime()
-    {
+    getTime() {
         return (new Date()).getTime();
     }
     
